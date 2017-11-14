@@ -7,11 +7,6 @@ except:
     warnings.warn("Probe/Probes/StatisticsProbe/StatisticsProbes not installed")
 
 try:
-    from fenicstools.StructuredGrid import StructuredGrid, ChannelGrid
-except:
-    warnings.warn("StructuredGrid/ChannelGrid not installed")
-
-try:
     from fenicstools.WeightedGradient import weighted_gradient_matrix, compiled_gradient_module
 except:
     warnings.warn("weighted_gradient_matrix/compiled_gradient_module not installed")
